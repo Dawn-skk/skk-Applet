@@ -8,12 +8,12 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path:'',
+      path:'https://dawn-skk.github.io/skk-Applet/dist/',
       redirect:'/login'
     },
     {
-      path:'/Login',
-      name:'Login',
+      path:'/login',
+      name:'login',
       component:Login
     },
     {
